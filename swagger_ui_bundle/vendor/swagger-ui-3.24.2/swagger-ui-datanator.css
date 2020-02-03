@@ -1,0 +1,266 @@
+/* Hide elements */
+.swagger-ui .topbar .download-url-wrapper,
+.scheme-container {
+    display: none;
+}
+
+/* size top bar */
+.swagger-ui .topbar {
+    padding: 5px 0;
+}
+.swagger-ui .topbar a {
+    max-width: unset;
+    flex: unset;
+}
+
+/* title text */
+.titles {
+    margin-left: 5px;
+    color: #fff;
+}
+.titles .title {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 2px;
+}
+.titles .subtitle {
+    font-size: 14px;
+    line-height: 14px;
+    font-style: italic;
+}
+
+/* colors */
+.swagger-ui .topbar,
+.swagger-ui .btn.execute
+{
+    background-color: #1890ff;
+}
+.swagger-ui .btn.execute {
+    border-color: #1890ff;
+}
+.swagger-ui .info .title small[style="background-color: rgb(137, 191, 4);"]
+{
+    background-color: #ffc306 !important;
+}
+
+.swagger-ui .info .title small {
+    background: #1890ff;
+}
+.swagger-ui .download-contents {
+    background: #999;
+}
+
+.swagger-ui textarea.curl,
+.swagger-ui .opblock-body pre,
+.swagger-ui .response-col_description__inner div.markdown,
+.swagger-ui .response-col_description__inner div.renderedMarkdown
+{
+    background-color: #444;
+}
+
+.swagger-ui select,
+.swagger-ui .response-content-type.controls-accept-header select
+{
+    border-color: #333;
+}
+.swagger-ui select {
+    background: #fff url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E    %3Cpath d='M13.418 7.859c.271-.268.709-.268.978 0 .27.268.272.701 0 .969l-3.908 3.83c-.27.268-.707.268-.979 0l-3.908-3.83c-.27-.267-.27-.701 0-.969.271-.268.709-.268.978 0L10 11l3.418-3.141z' fill='%23333' /%3E%3C/svg%3E") right 10px center no-repeat;
+}
+
+.swagger-ui,
+.swagger-ui .info .title,
+.swagger-ui .opblock-tag,
+.swagger-ui .opblock-tag small,
+.swagger-ui .info li,
+.swagger-ui .info p,
+.swagger-ui .info table,
+.swagger-ui .opblock .opblock-summary-operation-id,
+.swagger-ui .opblock .opblock-summary-path,
+.swagger-ui .opblock .opblock-summary-path__deprecated,
+.swagger-ui .opblock .opblock-summary-description,
+.swagger-ui .opblock .opblock-section-header h4,
+.swagger-ui .btn,
+.swagger-ui .opblock-description-wrapper p,
+.swagger-ui .opblock-external-docs-wrapper p,
+.swagger-ui .opblock-title_normal p,
+.swagger-ui .response-col_status,
+.swagger-ui table thead tr td,
+.swagger-ui table thead tr th,
+.swagger-ui .response-col_links,
+.swagger-ui select,
+.swagger-ui .tab li,
+.swagger-ui .responses-inner h4,
+.swagger-ui .responses-inner h5,
+.swagger-ui .parameter__name,
+.swagger-ui .parameter__type,
+.swagger-ui section.models h4,
+.swagger-ui .model-title,
+.swagger-ui .model,
+input,
+.swagger-ui .response-content-type.controls-accept-header small
+{
+    color: #333;
+}
+.swagger-ui .model-toggle:after {
+   background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z' fill='%23f00' /%3E%3C/svg%3E") 50% no-repeat;
+}
+.swagger-ui .tab li:first-of-type:after {
+    background: #999;
+}
+#large-arrow,
+#large-arrow-down {
+    fill: #333;
+}
+
+.swagger-ui .parameter__extension,
+.swagger-ui .parameter__in,
+.swagger-ui .prop-format
+{
+    color: #666;
+}
+
+
+.swagger-ui .info a,
+.swagger-ui .prop-type
+{
+    color: #1890ff;
+}
+.swagger-ui .info a
+{
+    text-decoration: none;
+}
+.swagger-ui .info a:hover
+{
+    color: #1890ff;
+    text-decoration: underline;
+}
+
+.swagger-ui .btn {
+    border-color: #333;
+}
+
+.swagger-ui .btn.cancel,
+.swagger-ui button.invalid {
+    border-color: #ff2806;
+}
+.swagger-ui .btn.cancel,
+.swagger-ui .parameter__name.required:after {
+    color: #ff2806;
+}
+.parameter__name.required span[style="color: red;"] {
+    color: #ff2806 !important;
+}
+
+.swagger-ui input[type=email],
+.swagger-ui input[type=file],
+.swagger-ui input[type=password],
+.swagger-ui input[type=search],
+.swagger-ui input[type=text],
+.swagger-ui textarea,
+.swagger-ui .opblock-tag,
+.swagger-ui table thead tr td, .swagger-ui table thead tr th,
+.swagger-ui section.models,
+.swagger-ui section.models.is-open h4
+{
+    border-color: #c3c3c3;
+}
+
+.swagger-ui .opblock.opblock-get,
+.swagger-ui .opblock.opblock-get .opblock-summary
+{
+    border-color: #1890ff;
+}
+
+.swagger-ui .opblock.opblock-get .opblock-summary-method,
+.swagger-ui .opblock.opblock-get .tab-header .tab-item.active h4 span:after
+{
+    background-color: #1890ff;
+}
+.swagger-ui .opblock.opblock-get
+{
+    background-color: #e7f3fe;
+}
+
+
+.swagger-ui .opblock.opblock-post,
+.swagger-ui .opblock.opblock-post .opblock-summary
+{
+    border-color: #DB0CFF;
+}
+.swagger-ui .opblock.opblock-post .opblock-summary-method,
+.swagger-ui .opblock.opblock-post .tab-header .tab-item.active h4 span:after
+{
+    background-color: #DB0CFF;
+}
+.swagger-ui .opblock.opblock-post
+{
+    background-color: #fbe6ff;
+}
+
+
+.swagger-ui .opblock.opblock-put,
+.swagger-ui .opblock.opblock-put .opblock-summary
+{
+    border-color: #ffc306;
+}
+.swagger-ui .opblock.opblock-put .opblock-summary-method,
+.swagger-ui .opblock.opblock-put .tab-header .tab-item.active h4 span:after
+{
+    background-color: #ffc306;
+}
+.swagger-ui .opblock.opblock-put
+{
+    background-color: #fff9e6;
+}
+
+
+:focus {
+    outline-color: #ffc306;
+}
+
+.swagger-ui section.models h4:hover,
+.swagger-ui section.models .model-container
+{
+    background-color: #e9e9e9;
+}
+.swagger-ui section.models .model-container:hover
+{
+    background-color: #e0e0e0;
+}
+
+/* font */
+.swagger-ui,
+.swagger-ui .info .title,
+.swagger-ui .info .title small pre,
+.swagger-ui .info li,
+.swagger-ui .info p,
+.swagger-ui .info table,
+.swagger-ui .info a,
+.swagger-ui .opblock-tag,
+.swagger-ui .opblock-tag small,
+.swagger-ui .opblock .opblock-summary-method,
+.swagger-ui .opblock .opblock-summary-description,
+.swagger-ui .opblock-description-wrapper p,
+.swagger-ui .opblock-external-docs-wrapper p,
+.swagger-ui .opblock-title_normal p,
+.swagger-ui .responses-inner h4,
+.swagger-ui .responses-inner h5,
+.swagger-ui .download-contents,
+.swagger-ui .tab li,
+.swagger-ui .parameter__name,
+.swagger-ui .opblock .opblock-section-header h4,
+.swagger-ui .response-col_status,
+.swagger-ui table thead tr td,
+.swagger-ui table thead tr th,
+.swagger-ui .response-col_links,
+.swagger-ui .model-title,
+.swagger-ui button,
+.swagger-ui .btn,
+.swagger-ui input,
+.swagger-ui optgroup,
+.swagger-ui select,
+.swagger-ui textarea
+{
+    font-family: -apple-system, "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Icons16", sans-serif;
+}
