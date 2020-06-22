@@ -54,10 +54,24 @@
 
 .swagger-ui textarea.curl,
 .swagger-ui .opblock-body pre,
+.swagger-ui .opblock-body pre.microlight,
 .swagger-ui .response-col_description__inner div.markdown,
 .swagger-ui .response-col_description__inner div.renderedMarkdown
 {
     background-color: #444;
+}
+
+.swagger-ui .response-col_description__inner div.renderedMarkdown {
+    padding: 10px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 12px;
+    font-family: monospace;
+    font-weight: 600;
+}
+
+.swagger-ui .response-col_description__inner div.renderedMarkdown p {
+    margin: 0;
 }
 
 .swagger-ui select,
